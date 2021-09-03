@@ -1,0 +1,6 @@
+{
+    "prettier.jsxSingleQuote": true,
+    "editor.linkedEditing": true,
+    "editor.detectIndentation": false,
+    "explorer.compactFolders": false
+}
