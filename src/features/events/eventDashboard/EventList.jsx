@@ -1,10 +1,10 @@
 import { EventListItem } from "./EventListItem";
 
-export const EventList = (props) => {
+export const EventList = ({events, selectEvent, deleteEvent}) => {
     return(
         <>
-            {props.events.map((event) => {
-                return <EventListItem event={event} key={event.id}></EventListItem>
+            {events.map((event) => {
+                return <EventListItem event={event} key={event.id} selectEvent={selectEvent} deleteEvent={deleteEvent}></EventListItem>
             })}
         </>
     );

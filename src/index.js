@@ -9,9 +9,8 @@ const rootEl = document.getElementById('root');
 
 function render () {
   ReactDOM.render(
-    <React.StrictMode>
       <App />
-    </React.StrictMode>,
+    ,
     rootEl
   );
 }

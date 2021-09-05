@@ -5,4 +5,8 @@
 
 # 2. Add to index.js
 
-import 'semantic-ui-css/semantic.min.css';
+> import 'semantic-ui-css/semantic.min.css';
+
+# to create unique identifiers, we are using "cuid"
+
+> npm i cuid
